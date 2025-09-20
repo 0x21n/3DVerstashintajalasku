@@ -85,7 +85,7 @@
         const formData = new FormData();
         formData.append("3dfiles", uploadInput.files[0]);
         document.getElementById("upload-label").style.display = "none";
-        fetch("/upload", {
+        fetch("/https://hintalaskuri-239782198314.europe-north1.run.app", {
             method: "POST",
             body: formData,
         }).then(res =>
@@ -108,5 +108,6 @@
 </script>
 </body>
 </html>
+
 
 
