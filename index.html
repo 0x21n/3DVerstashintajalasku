@@ -89,6 +89,10 @@
         console.log(objectURL);
     };
 
+    fetch("https://wn6o6jl2ruhycckw42xj5bswue0zypyr.lambda-url.eu-north-1.on.aws/").then(response => {
+           console.log(response);
+        })
+
     function updatePrice() {
         var materialCost = costPerKG.value / 1000;
         lastInfill = 0;
@@ -102,6 +106,7 @@
 </script>
 </body>
 </html>
+
 
 
 
